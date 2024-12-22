@@ -2585,6 +2585,12 @@
 		)
 	)
 	(junction
+		(at 45.72 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21230032-ac0c-41e0-9378-01a841325254")
+	)
+	(junction
 		(at 165.1 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2595,6 +2601,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5367010b-1b83-46df-9b8d-a24ffa354548")
+	)
+	(junction
+		(at 35.56 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55c8afed-3dec-4f88-b294-f22dbb89d4b7")
 	)
 	(junction
 		(at 93.98 12.7)
@@ -2615,6 +2627,18 @@
 		(uuid "8753e0a8-2d76-4acd-8aaf-18ed19c5c5d7")
 	)
 	(junction
+		(at 55.88 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a523d79b-c663-40d9-89d0-af9dddba76a4")
+	)
+	(junction
+		(at 45.72 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0bf4319-ff2d-4bc2-87de-414e00deb3f1")
+	)
+	(junction
 		(at 83.82 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2631,6 +2655,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1886a29-88cb-4361-89ed-bc768d9163f4")
+	)
+	(junction
+		(at 35.56 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d242ff12-30e7-4886-8515-53d5611e9037")
+	)
+	(junction
+		(at 55.88 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2a13108-a169-4ec3-9aca-a0dbacff815a")
 	)
 	(junction
 		(at 83.82 107.95)
@@ -2724,6 +2760,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 34.29) (xy 45.72 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158fdca4-27d5-413a-b8c9-49064e755e15")
+	)
+	(wire
+		(pts
 			(xy 81.28 107.95) (xy 83.82 107.95)
 		)
 		(stroke
@@ -2761,6 +2807,26 @@
 			(type default)
 		)
 		(uuid "1ce00f4b-15cf-4872-b38a-47e1844d7275")
+	)
+	(wire
+		(pts
+			(xy 35.56 39.37) (xy 45.72 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202eba82-a6a2-4b55-99fd-841cb4d6c9f5")
+	)
+	(wire
+		(pts
+			(xy 45.72 34.29) (xy 55.88 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22983041-5d71-4991-9b1d-efd71e962082")
 	)
 	(wire
 		(pts
@@ -2831,6 +2897,16 @@
 			(type default)
 		)
 		(uuid "47ae94c8-b58b-4a6c-b320-75ff6724d1e1")
+	)
+	(wire
+		(pts
+			(xy 55.88 34.29) (xy 66.04 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614c5467-7b4d-4441-b6f3-39e89db0ea5f")
 	)
 	(wire
 		(pts
@@ -2924,6 +3000,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 39.37) (xy 66.04 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b049d68e-f526-4716-b839-cedc1157667a")
+	)
+	(wire
+		(pts
 			(xy 43.18 54.61) (xy 63.5 54.61)
 		)
 		(stroke
@@ -2991,6 +3077,16 @@
 			(type default)
 		)
 		(uuid "ee0babb1-fb78-41d4-b71a-0beeba9358f7")
+	)
+	(wire
+		(pts
+			(xy 45.72 39.37) (xy 55.88 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eecd79bd-93df-481e-85ba-1e6a02340f07")
 	)
 	(wire
 		(pts
@@ -3471,6 +3567,75 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 45.72 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06dd4658-b508-453d-acfb-334edf0e8715")
+		(property "Reference" "C55"
+			(at 47.752 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 47.752 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 45.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 45.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00f3393f-5824-4839-90cd-775ebb273930")
+		)
+		(pin "2"
+			(uuid "88a4d500-e1c9-4c70-acef-e0d7b1bec885")
+		)
+		(instances
+			(project "luma_cpu_v4"
+				(path "/cce26ded-9549-4124-81ff-5ed9dbc86fc7/3ceed5a1-9b0b-41fa-b05a-0f7169da911a/21279e82-8f69-4407-aae5-db25da495a5a"
+					(reference "C55")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3984,6 +4149,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 35.56 39.37 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21c2d0a2-e314-4a10-9466-52ba7a09bb67")
+		(property "Reference" "#PWR0256"
+			(at 35.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85a7fdd6-ef85-4d6a-b715-873f746c89bb")
+		)
+		(instances
+			(project "luma_cpu_v4"
+				(path "/cce26ded-9549-4124-81ff-5ed9dbc86fc7/3ceed5a1-9b0b-41fa-b05a-0f7169da911a/21279e82-8f69-4407-aae5-db25da495a5a"
+					(reference "#PWR0256")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 93.98 20.32 0)
 		(mirror y)
 		(unit 1)
@@ -4043,6 +4274,71 @@
 			(project "luma_cpu_v4"
 				(path "/cce26ded-9549-4124-81ff-5ed9dbc86fc7/3ceed5a1-9b0b-41fa-b05a-0f7169da911a/21279e82-8f69-4407-aae5-db25da495a5a"
 					(reference "#PWR0254")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 35.56 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3806e4fb-9f61-4d05-82e6-c4fd7c4b355f")
+		(property "Reference" "#PWR0255"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 31.75 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 35.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e40b8686-5ffb-4a9e-85df-9d2ec6dc0b62")
+		)
+		(instances
+			(project "luma_cpu_v4"
+				(path "/cce26ded-9549-4124-81ff-5ed9dbc86fc7/3ceed5a1-9b0b-41fa-b05a-0f7169da911a/21279e82-8f69-4407-aae5-db25da495a5a"
+					(reference "#PWR0255")
 					(unit 1)
 				)
 			)
@@ -5206,6 +5502,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae35dc73-e7b1-4a9d-8f80-17b8c9fc9575")
+		(property "Reference" "C56"
+			(at 57.912 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 57.912 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 55.88 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 55.88 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "710b6e91-fba4-4f31-8624-6fcdc5b1d97b")
+		)
+		(pin "2"
+			(uuid "4628ceb7-c8a3-4fb0-b0be-0f4c8556224f")
+		)
+		(instances
+			(project "luma_cpu_v4"
+				(path "/cce26ded-9549-4124-81ff-5ed9dbc86fc7/3ceed5a1-9b0b-41fa-b05a-0f7169da911a/21279e82-8f69-4407-aae5-db25da495a5a"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 107.95 0)
 		(mirror y)
@@ -5404,6 +5769,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 66.04 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd324f90-79a4-4d4b-aacc-8224f77ffeb5")
+		(property "Reference" "C57"
+			(at 68.072 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 68.072 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 66.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 66.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3374579-7a73-4fa2-9746-e38522e03ead")
+		)
+		(pin "2"
+			(uuid "7c0e5097-e99c-4f26-bd4b-af58d0f2eeca")
+		)
+		(instances
+			(project "luma_cpu_v4"
+				(path "/cce26ded-9549-4124-81ff-5ed9dbc86fc7/3ceed5a1-9b0b-41fa-b05a-0f7169da911a/21279e82-8f69-4407-aae5-db25da495a5a"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 55.88 60.96 0)
 		(mirror y)
@@ -5468,6 +5902,75 @@
 			(project ""
 				(path "/cce26ded-9549-4124-81ff-5ed9dbc86fc7/3ceed5a1-9b0b-41fa-b05a-0f7169da911a/21279e82-8f69-4407-aae5-db25da495a5a"
 					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc3a10fa-fa0d-418a-bf6b-eaf079214c05")
+		(property "Reference" "C54"
+			(at 37.592 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 37.592 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 35.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 35.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "345d2e95-91e9-402a-9267-bf94dd2c01c5")
+		)
+		(pin "2"
+			(uuid "4cff4914-5b95-4b0f-9954-6d2676a681f9")
+		)
+		(instances
+			(project "luma_cpu_v4"
+				(path "/cce26ded-9549-4124-81ff-5ed9dbc86fc7/3ceed5a1-9b0b-41fa-b05a-0f7169da911a/21279e82-8f69-4407-aae5-db25da495a5a"
+					(reference "C54")
 					(unit 1)
 				)
 			)
